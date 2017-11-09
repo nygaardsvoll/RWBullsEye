@@ -19,10 +19,10 @@ class ViewController: UIViewController {
     startNewGame()
     
     // MARK: Interface
-    let thumbImageNormal = UIImage(named: "SliderThumb-Normal")!
+    let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal") // UIImage(named: "SliderThumb-Normal")!
     slider.setThumbImage(thumbImageNormal, for: .normal)
     
-    let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")!
+    let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted") // UIImage(named: "SliderThumb-Highlighted")!
     slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
     
     let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)

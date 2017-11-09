@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920752D61F9647EF0080459A /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920752D51F9647EF0080459A /* AboutMeViewController.swift */; };
+		920752D91F9658060080459A /* AboutTheAuthor.html in Resources */ = {isa = PBXBuildFile; fileRef = 920752D81F9658060080459A /* AboutTheAuthor.html */; };
 		922A68191F42A59C0037516C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922A68181F42A59C0037516C /* AppDelegate.swift */; };
 		922A681B1F42A59C0037516C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922A681A1F42A59C0037516C /* ViewController.swift */; };
 		922A681E1F42A59C0037516C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922A681C1F42A59C0037516C /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		920752D51F9647EF0080459A /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		920752D81F9658060080459A /* AboutTheAuthor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AboutTheAuthor.html; sourceTree = "<group>"; };
 		922A68151F42A59C0037516C /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922A68181F42A59C0037516C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		922A681A1F42A59C0037516C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				922A682C1F5A6D970037516C /* BullsEye.html */,
 				922A68181F42A59C0037516C /* AppDelegate.swift */,
 				922A681A1F42A59C0037516C /* ViewController.swift */,
+				920752D81F9658060080459A /* AboutTheAuthor.html */,
 				922A682A1F5496990037516C /* AboutViewController.swift */,
+				920752D51F9647EF0080459A /* AboutMeViewController.swift */,
 				922A681C1F42A59C0037516C /* Main.storyboard */,
 				922A681F1F42A59C0037516C /* Assets.xcassets */,
 				922A68241F42A59C0037516C /* Info.plist */,
@@ -97,12 +103,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Nymain;
 				TargetAttributes = {
 					922A68141F42A59C0037516C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8U6XLFBVKJ;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -134,6 +141,7 @@
 				922A68341F5BBEA30037516C /* Default-568h@2x.png in Resources */,
 				922A68201F42A59C0037516C /* Assets.xcassets in Resources */,
 				922A681E1F42A59C0037516C /* Main.storyboard in Resources */,
+				920752D91F9658060080459A /* AboutTheAuthor.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +154,7 @@
 			files = (
 				922A682B1F5496990037516C /* AboutViewController.swift in Sources */,
 				922A681B1F42A59C0037516C /* ViewController.swift in Sources */,
+				920752D61F9647EF0080459A /* AboutMeViewController.swift in Sources */,
 				922A68191F42A59C0037516C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,7 +183,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +193,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -224,7 +239,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -232,7 +249,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -266,7 +287,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nymain.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -279,7 +301,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nymain.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

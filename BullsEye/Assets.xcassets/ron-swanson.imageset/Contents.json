@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "ron-swanson.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "SliderTrackLeft@2x.png",
       "scale" : "2x"
     },
     {
