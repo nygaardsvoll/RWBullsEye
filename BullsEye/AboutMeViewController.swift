@@ -27,8 +27,6 @@ class AboutMeViewController: UIViewController {
         aboutMeWebView.load(htmlData, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
       }
     }
-    
-    
   }
   
   override func didReceiveMemoryWarning() {
